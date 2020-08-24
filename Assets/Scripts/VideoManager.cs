@@ -6,13 +6,14 @@ using UnityEngine.Video;
 public class VideoManager : MonoBehaviour
 {
     private VideoPlayer videoPlayer;
-    GameObject dd;
 
+    public VideoClip[] videos;
 
     // Start is called before the first frame update
     void Start()
     {
         videoPlayer = GetComponent<VideoPlayer>();
+
     }
     public void Play()
     {
@@ -28,42 +29,39 @@ public class VideoManager : MonoBehaviour
         videoPlayer.Stop();
     }
 
-    void Awake()
+
+
+    public void livingVideo()
     {
-
-        //Find the fader object
-        dd = GameObject.Find("Video Player");
-
-    }
-    public void cuboVideo()
-    {
-
-        videoPlayer.source = VideoSource.Url;
-        videoPlayer.url = "Assets/videos/Cube.mp4";
+        videoPlayer.source = VideoSource.VideoClip;
+        videoPlayer.clip = videos[0];
         videoPlayer.Prepare();
         videoPlayer.prepareCompleted += VideoPlayer_prepareCompleted;
     }
-    public void livingVideo()
+
+    public void cuboVideo()
     {
-        videoPlayer.source = VideoSource.Url;
-        videoPlayer.url = "Assets/videos/LivingRoom.mp4";
+        videoPlayer.source = VideoSource.VideoClip;
+        videoPlayer.clip = videos[1];
+        videoPlayer.Prepare();
+        videoPlayer.prepareCompleted += VideoPlayer_prepareCompleted;
+    }
+
+    public void cantinaVideo()
+    {
+        videoPlayer.source = VideoSource.VideoClip;
+        videoPlayer.clip = videos[2];
         videoPlayer.Prepare();
         videoPlayer.prepareCompleted += VideoPlayer_prepareCompleted;
     }
     public void mezzanineVideo()
     {
-        videoPlayer.source = VideoSource.Url;
-        videoPlayer.url = "Assets/videos/Mezzanine.mp4";
+        videoPlayer.source = VideoSource.VideoClip;
+        videoPlayer.clip = videos[3];
         videoPlayer.Prepare();
         videoPlayer.prepareCompleted += VideoPlayer_prepareCompleted;
     }
-    public void cantinaVideo()
-    {
-        videoPlayer.source = VideoSource.Url;
-        videoPlayer.url = "Assets/videos/Cantina.mp4";
-        videoPlayer.Prepare();
-        videoPlayer.prepareCompleted += VideoPlayer_prepareCompleted;
-    }
+
     private void VideoPlayer_prepareCompleted(VideoPlayer source)
     {
         Play();

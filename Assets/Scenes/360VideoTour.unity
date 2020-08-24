@@ -147,18 +147,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5423242}
-  m_LocalRotation: {x: -0.115921, y: -0.04978838, z: -0.014775058, w: 0.9918997}
-  m_LocalPosition: {x: 0, y: 0, z: 0.3131}
+  m_LocalRotation: {x: -0.06872612, y: -0.9385152, z: -0.15627852, w: -0.30007187}
+  m_LocalPosition: {x: 0, y: 0, z: -0.269}
   m_LocalScale: {x: 0.012884899, y: 0.010501361, z: 0.039385}
   m_Children:
   - {fileID: 223376291}
   - {fileID: 638397663}
   m_Father: {fileID: 1275369099}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -13.382001, y: -5.624, z: -1.046}
+  m_LocalEulerAnglesHint: {x: -14.601001, y: -217.174, z: 13.31}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0793, y: 0.0105}
+  m_AnchoredPosition: {x: 0.17, y: 0.053}
   m_SizeDelta: {x: 7.3933372, y: 9.564381}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5423244
@@ -1346,17 +1346,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295934300}
-  m_LocalRotation: {x: -0.08021352, y: -0.76909393, z: -0.07240278, w: 0.629935}
-  m_LocalPosition: {x: 0, y: 0, z: -0.2065}
+  m_LocalRotation: {x: -0.0070515443, y: -0.99913204, z: -0.038744863, w: 0.0135753825}
+  m_LocalPosition: {x: 0, y: 0, z: -0.2829}
   m_LocalScale: {x: 0.012884899, y: 0.010501361, z: 0.039385}
   m_Children:
   - {fileID: 488764729}
   m_Father: {fileID: 677325647}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -12.265, y: -101.564, z: 1.886}
+  m_LocalEulerAnglesHint: {x: -4.451, y: -178.47202, z: 0.749}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.3231, y: 0.025}
+  m_AnchoredPosition: {x: -0.1283, y: 0.0147}
   m_SizeDelta: {x: 7.3933372, y: 9.564381}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &295934302
@@ -1445,18 +1445,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 299721831}
-  m_LocalRotation: {x: -0.115921, y: -0.04978838, z: -0.014775058, w: 0.9918997}
-  m_LocalPosition: {x: 0, y: 0, z: 0.2602}
+  m_LocalRotation: {x: -0.085904926, y: 0.7206763, z: 0.073082596, w: 0.6840358}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1023}
   m_LocalScale: {x: 0.012884899, y: 0.010501361, z: 0.039385}
   m_Children:
   - {fileID: 1070967255}
   - {fileID: 144007526}
   m_Father: {fileID: 462693911}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -13.382001, y: -5.624, z: -1.046}
+  m_LocalEulerAnglesHint: {x: -12.877001, y: 93.146, z: -1.401}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.1091, y: -0.0102}
+  m_AnchoredPosition: {x: 0.2039, y: 0.0391}
   m_SizeDelta: {x: 7.3933372, y: 9.564381}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &299721833
@@ -3202,6 +3202,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c9401a87de538a499a9657eb9b11997, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  videos:
+  - {fileID: 32900000, guid: 56e9a4aa9af2aac4f8b24dc98e93ee44, type: 3}
+  - {fileID: 32900000, guid: 12f76c83c1854e648a233624bc80527a, type: 3}
+  - {fileID: 32900000, guid: 990916d7d0afac14a8f6bc00651af61c, type: 3}
+  - {fileID: 32900000, guid: 30d659140e878cf44894494a9858347f, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -4111,8 +4116,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Our mezzanine\u2019s booth seating\nencourages students to talk,\ncollaborate,
-    and work together\nto solve problems."
+  m_Text: 'Holberton provides iMacs
+
+    for students to use as well
+
+    as plenty
+    of open desk space
+
+    for those who opt to bring in
+
+    their own laptops.'
 --- !u!222 &939695057
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4835,7 +4848,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1041649337}
   m_LocalRotation: {x: -0.08021352, y: -0.76909393, z: -0.07240278, w: 0.629935}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0412}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0399}
   m_LocalScale: {x: 0.012884899, y: 0.010501361, z: 0.039385}
   m_Children:
   - {fileID: 1448536624}
@@ -4844,7 +4857,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -12.265, y: -101.564, z: 1.886}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.3557, y: 0.0304}
+  m_AnchoredPosition: {x: -0.3291, y: 0.1515}
   m_SizeDelta: {x: 7.3933372, y: 9.564381}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1041649339
@@ -6104,16 +6117,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Holberton provides iMacs
-
-    for students to use as well
-
-    as plenty
-    of open desk space
-
-    for those who opt to bring in
-
-    their own laptops.'
+  m_Text: "Our mezzanine\u2019s booth seating\nencourages students to talk,\ncollaborate,
+    and work together\nto solve problems."
 --- !u!222 &1311821552
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6279,7 +6284,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364180423}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.015412271, y: 0.09061846, z: -0.043932997, w: 0.9947969}
   m_LocalPosition: {x: 0, y: 0, z: -3.16}
   m_LocalScale: {x: 0.6226571, y: 0.91766214, z: 1}
   m_Children:
@@ -6288,10 +6293,10 @@ RectTransform:
   - {fileID: 939695055}
   m_Father: {fileID: 1733729914}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 2.214, y: 10.316001, z: -4.8580003}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 7.31, y: -2.6}
+  m_AnchoredPosition: {x: -1.87, y: -4.9}
   m_SizeDelta: {x: 6.569866, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1364180425
@@ -7008,17 +7013,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671978827}
-  m_LocalRotation: {x: -0.14060241, y: -0.4329741, z: -0.06857638, w: 0.88772845}
-  m_LocalPosition: {x: 0, y: 0, z: 0.1466}
+  m_LocalRotation: {x: 0.005306992, y: 0.6866643, z: -0.059775088, w: 0.72449356}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0558}
   m_LocalScale: {x: 0.012884899, y: 0.010501361, z: 0.039385}
   m_Children:
   - {fileID: 1149463720}
   m_Father: {fileID: 1275369099}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -18, y: -52, z: 0}
+  m_LocalEulerAnglesHint: {x: 5.151, y: 86.72301, z: -4.5680003}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.3116, y: 0.0214}
+  m_AnchoredPosition: {x: 0.35, y: 0.0806}
   m_SizeDelta: {x: 7.3933372, y: 9.564381}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1671978829
@@ -7331,18 +7336,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1733729913}
-  m_LocalRotation: {x: -0.115921, y: -0.04978838, z: -0.014775058, w: 0.9918997}
-  m_LocalPosition: {x: 0, y: 0, z: 0.3131}
+  m_LocalRotation: {x: -0.111099996, y: -0.46930563, z: 0.036232222, w: 0.8752693}
+  m_LocalPosition: {x: 0, y: 0, z: 0.2946}
   m_LocalScale: {x: 0.012884899, y: 0.010501361, z: 0.039385}
   m_Children:
   - {fileID: 2082266619}
   - {fileID: 1364180424}
   m_Father: {fileID: 462693911}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -13.382001, y: -5.624, z: -1.046}
+  m_LocalEulerAnglesHint: {x: -9.235001, y: -57.191, z: 9.782001}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0793, y: 0.0105}
+  m_AnchoredPosition: {x: -0.2595, y: 0.0137}
   m_SizeDelta: {x: 7.3933372, y: 9.564381}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1733729915
@@ -7431,17 +7436,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1785740305}
-  m_LocalRotation: {x: -0.14060241, y: -0.4329741, z: -0.06857638, w: 0.88772845}
-  m_LocalPosition: {x: 0, y: 0, z: 0.1466}
+  m_LocalRotation: {x: -0.051201057, y: 0.15570861, z: 0.027437763, w: 0.9860936}
+  m_LocalPosition: {x: 0, y: 0, z: 0.3573}
   m_LocalScale: {x: 0.012884899, y: 0.010501361, z: 0.039385}
   m_Children:
   - {fileID: 1680564515}
   m_Father: {fileID: 462693911}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -18, y: -52, z: 0}
+  m_LocalEulerAnglesHint: {x: -6.288, y: 17.825, z: 2.2010002}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.3116, y: 0.0214}
+  m_AnchoredPosition: {x: 0.0131, y: 0.0046}
   m_SizeDelta: {x: 7.3933372, y: 9.564381}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1785740307
